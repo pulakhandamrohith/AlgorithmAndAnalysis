@@ -64,3 +64,5 @@ matching = blossom.find_maximum_matching()
 
 # Output the matching
 print("Maximum Matching:", [(i, matching[i]) for i in range(len(matching)) if matching[i] != -1])
+#Maximum Matching: [(0, 1), (2, 3), (4, 3)]
+
